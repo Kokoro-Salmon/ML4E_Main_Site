@@ -1,0 +1,15 @@
+/* src/app/styles/Bootstrap.module.css */
+
+.carousel img {
+    max-height: 500px;
+    object-fit: cover;
+  }
+  
+  .carousel-caption h3 {
+    font-size: 2rem;
+  }
+  
+  .carousel-caption p {
+    font-size: 1.2rem;
+  }
+  
