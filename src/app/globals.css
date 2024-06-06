@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
@@ -104,4 +108,50 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+
+
+
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 16px;
+  background-color: rgba(13, 42, 69, 0.9); /* Equivalent to bg-blue-900 and bg-opacity-90 */
+  height: 76px;
+  padding-top: 16px; /* Equivalent to py-4 */
+  padding-bottom: 16px; /* Equivalent to py-4 */
+  border-bottom: 1px solid white; /* Equivalent to border-b and border-white */
+}
+
+.logo-title {
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  margin-left: 16px; /* Equivalent to ml-4 */
+  font-size: 1.125rem; /* Equivalent to text-lg */
+  font-weight: 600; /* Equivalent to font-semibold */
+  height: 30px;
+  width: 131px;
+  color: rgba(229, 231, 235, 1); /* Equivalent to text-purple-100 and text-opacity-100 */
+}
+
+.nav-links {
+  display: flex;
+  gap: 32px; /* Equivalent to space-x-8 */
+  color: rgba(229, 231, 235, 1); /* Equivalent to text-purple-100 and text-opacity-100 */
+}
+
+.link {
+  color: inherit; /* Ensures the links inherit the color from nav-links */
+  text-decoration: none; /* Removes underline */
+}
+
+.secondary-logo {
+  display: flex;
+  align-items: center;
 }

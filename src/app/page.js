@@ -9,10 +9,10 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <Landing />
-      <Projects />
+      {/* <Projects />
       <Aboutus />
       <Fourthcomponent />
-      <Oursponser_footer />
+      <Oursponser_footer /> */}
     </main>
   );
 }
