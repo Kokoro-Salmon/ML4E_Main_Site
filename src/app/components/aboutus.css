@@ -1,118 +1,116 @@
-.aboutMain{
-    height: 100vh;
-    width: 100vw;
-    /* border: black 2px solid; */
+.aboutMain {
+  height: 100vh;
+  width: 100vw;
+  /* border: black 2px solid; */
 }
 
-
 .section {
-    width: 100%;
-    min-height: 100vh;
-    /* background-color: rgb(18, 18, 18); */
-    display: flex;
-    flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+  /* background-color: rgb(18, 18, 18); */
+  display: flex;
+  flex-direction: column;
 }
 
 .container {
-    width: 90%;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    padding-top: 5rem;
-    /* background: linear-gradient(135deg, rgb(37, 31, 37), rgb(18, 18, 18)); */
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5rem;
+  /* background: linear-gradient(135deg, rgb(37, 31, 37), rgb(18, 18, 18)); */
 }
 
 .content-section {
-    float: left;
-    width: 85%;
+  float: left;
+  width: 85%;
 }
 
 .icon-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 10%; 
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 10%;
 }
 
 .handles {
-
-    /* background: linear-gradient(180deg, #4B2A80, rgb(93, 38, 93)); */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: transform 0.3s;
+  /* background: linear-gradient(180deg, #4B2A80, rgb(93, 38, 93)); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s;
 }
 
-.imges{
-    height: 3.5rem;
-    width: 3.5rem;
+.imges {
+  height: 3.5rem;
+  width: 3.5rem;
 }
 
 .handles:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
- .title {
-    font-size: 4rem;
-    color: rgb(75, 42, 128);
-    margin-left: 5%;
-    margin-top: 2%;
-
+.About-us-title {
+  font-size: 4rem;
+  background: linear-gradient(180deg, #3a4fa4 0%, #523988 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-left: 5%;
+  margin-top: 2%;
 }
 
 .content-section .content p {
-    margin-left: 5%;
-    margin-top: 50px;
-    margin-right: 10px;
-    font-size: 17px;
-    line-height: 1.5;
-    color:#E4D9FF;
+  margin-left: 5%;
+  margin-top: 50px;
+  margin-right: 10px;
+  font-size: 17px;
+  line-height: 1.5;
+  color: #e4d9ff;
 }
 
 .content-section .content .button {
-    margin-left: 5%;
-    /* margin-top: 80px; */
-    /* margin-bottom: 10px; */
-    /* margin-right: 10px; */
-    float: right;
-    transition: transform 0.3s;
+  margin-left: 5%;
+  /* margin-top: 80px; */
+  /* margin-bottom: 10px; */
+  /* margin-right: 10px; */
+  float: right;
+  transition: transform 0.3s;
 }
 
 .content-section .content .button a {
-    background-color: rgb(75, 42, 128);
-    padding: 1rem 2rem;
-    text-decoration: none;
-    color:#E4D9FF;
-    font-size: larger;
-    border-radius: 10px;
-    display: inline-block;
+  background-color: rgb(75, 42, 128);
+  padding: 1rem 2rem;
+  text-decoration: none;
+  color: #e4d9ff;
+  font-size: larger;
+  border-radius: 10px;
+  display: inline-block;
 }
 
 .content-section .content .button a:hover {
-    transform: scale(1.05);
-    transition: 0.5s;
-    letter-spacing: 0.1px;
+  transform: scale(1.05);
+  transition: 0.5s;
+  letter-spacing: 0.1px;
 }
 
 @media (max-width: 1200px) {
-    .content-section{
-        width: 100%;
-        float: none;
-    }
-    .content-section .title {
-        font-size: 50px;
-    }
-    .content-section .content p {
-        margin-right: 5%;
-    }
-    .content-section .content .button {
-        float: none;
-        text-align: center;
-        margin: 40px auto 10px;
-    }
-};
+  .content-section {
+    width: 100%;
+    float: none;
+  }
+  .content-section .title {
+    font-size: 50px;
+  }
+  .content-section .content p {
+    margin-right: 5%;
+  }
+  .content-section .content .button {
+    float: none;
+    text-align: center;
+    margin: 40px auto 10px;
+  }
+}
 
 /* @media (max-width: 768px) {
     .content-section .title {
