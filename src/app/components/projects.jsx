@@ -1,7 +1,12 @@
-import React, { Component } from 'react'; 
-import "react-responsive-carousel/lib/styles/carousel.min.css"; 
-import { Carousel } from 'react-responsive-carousel'; 
-import './projects.css'; 
+
+"use client";
+import React, { Component } from "react";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from "react-responsive-carousel";
+import "./projects.css";
+
+
+
 
 const CarouselItem = ({ header, body, image }) => (
   <div className="carousel-item">
@@ -15,40 +20,47 @@ const CarouselItem = ({ header, body, image }) => (
   </div>
 );
 
-export default class NextJsCarousel extends Component { 
-  render() { 
+export default class NextJsCarousel extends Component {
+  render() {
     const carouselData = [
       {
-        header: "Clustering Based Approach for Underwater Sunlight Flicker Removal",
+        header:
+          "Clustering Based Approach for Underwater Sunlight Flicker Removal",
         body: "Reproduction of a given dataset of lung sounds recorded from the chest wall using an electronic stethoscope for classification of various lung diseases from audio files and benchmarking of current state of the art classification models for ICBHI Respiratory Sound Database (ICBHI 2017 Challenge)",
-        image: "/images/3.png"
+        image: "/1.png",
       },
       {
-        header: "CNN Based Image Resizing Detection and Resize Factor Classification for Forensic Applications",
+        header:
+          "CNN Based Image Resizing Detection and Resize Factor Classification for Forensic Applications",
         body: "The paper discusses the challenges associated with the treatment of glioblastoma, a highly dangerous and malignant brain tumour. The current standard of care includes surgical treatment, radiation therapy, and chemotherapy using temozolomide. However,chemotherapy often becomes ineffective due to resistance development and disease re-emergence. Recent research has shown that the methylation status of the O6-methylguanine-DNA methyltransferase (MGMT) promoter region is an essential indicator of the response to temozolomide therapy in glioblastoma patients.",
-        image: "/images/2.png"
+        image: "/2.png",
       },
       {
-        header: "MRI Based MGMT promoter methylation detection using Deep Learning",
+        header:
+          "MRI Based MGMT promoter methylation detection using Deep Learning",
         body: "The paper discusses the challenges associated with the treatment of glioblastoma, a highly dangerous and malignant brain tumour. The current standard of care includes surgical treatment, radiation therapy, and chemotherapy using temozolomide. However,chemotherapy often becomes ineffective due to resistance development and disease re-emergence. Recent research has shown that the methylation status of the O6-methylguanine-DNA methyltransferase (MGMT) promoter region is an essential indicator of the response to temozolomide therapy in glioblastoma patients.",
-        image: "/images/3.png"
-      }
+        image: "/3.png",
+      },
     ];
 
-    return ( 
+    return (
       <div className="carousel-container">
-       
-        <Carousel showThumbs={false} transitionTime={1000} > 
-          {carouselData.map((item, index) => (
-            <CarouselItem
-              key={index}
-              header={item.header}
-              body={item.body}
-              image={item.image}
-            />
-          ))}
-        </Carousel> 
-      </div> 
-    ); 
-  } 
+        <div className="sub-carousel-container">
+          <Carousel className="actual_carousel" showThumbs={false} transitionTime={1000}>
+            {carouselData.map((item, index) => (
+              <CarouselItem
+                key={index}
+                header={item.header}
+                body={item.body}
+                image={item.image}
+              />
+            ))}
+          </Carousel>
+        </div>
+      </div>
+    );
+  }
+
+
+
 }
