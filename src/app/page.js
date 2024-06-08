@@ -1,18 +1,22 @@
 
+"use client";
 import styles from "./page.module.css";
 import Landing from './components/landing';
 import Projects from './components/projects';
 import Aboutus from './components/aboutus';
 import Fourthcomponent from './components/fourthcomponent';
 import Oursponser_footer from './components/oursponser_footer';
+import 'tailwindcss/tailwind.css';
+
+
 export default function Home() {
   return (
     <main className={styles.main}>
       <Landing />
-      <Projects />
+      {/* <Projects />
       <Aboutus />
       <Fourthcomponent />
-      <Oursponser_footer />
+      <Oursponser_footer /> */}
     </main>
   );
 }
