@@ -4,6 +4,7 @@ import "./fourthcomponent.css";
 export default function Fourthcomponent() {
   return (
     <div className="fourthMain">
+      <div className="fourthtitle">Some Interesting Research Below</div>
       <div className="card-container">
         <div className="card">
           <img
@@ -22,7 +23,10 @@ export default function Fourthcomponent() {
             </div>
           </div>
           <div className="buttoncard">
-            <Link className="button-view-detail" href="https://deepmind.google/technologies/alphafold/">
+            <Link
+              className="button-view-detail"
+              href="https://deepmind.google/technologies/alphafold/"
+            >
               <button className="actual-buttons">View Details</button>
             </Link>
             <Link className="button-dowload-pdf" href="https://www.google.com">
@@ -45,7 +49,10 @@ export default function Fourthcomponent() {
             </div>
           </div>
           <div className="buttoncard">
-            <Link className="button-view-detail" href="https://arxiv.org/pdf/1706.03762">
+            <Link
+              className="button-view-detail"
+              href="https://arxiv.org/pdf/1706.03762"
+            >
               <button className="actual-buttons">View Details</button>
             </Link>
             <Link className="button-dowload-pdf" href="https://www.google.com">
@@ -69,7 +76,10 @@ export default function Fourthcomponent() {
             </div>
           </div>
           <div className="buttoncard">
-            <Link className="button-view-detail" href="https://www.mdpi.com/2076-3417/12/10/5106">
+            <Link
+              className="button-view-detail"
+              href="https://www.mdpi.com/2076-3417/12/10/5106"
+            >
               <button className="actual-buttons">View Details</button>
             </Link>
             <Link className="button-dowload-pdf" href="https://www.google.com">

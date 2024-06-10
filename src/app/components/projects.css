@@ -14,7 +14,9 @@
 
 .carousel-item {
   display: flex;
-  align-items: flex-start;
+  /* align-items: flex-start; */
+  justify-content: center;
+  align-items: center;
   /* background: linear-gradient(180deg, #111827 0%, #1f2937 100%); */
   padding: 20px;
   border-radius: 10px;

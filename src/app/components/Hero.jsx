@@ -8,10 +8,10 @@ function Hero() {
       <div className="wrapper">
         <p>The Future of</p>
         <div className="words">
-          <span>IOT</span>
-          <span>ML</span>
-          <span>AI</span>
-          <span>DATA</span>
+          <span id="sp1">IOT</span>
+          <span id="sp2">ML</span>
+          <span id="sp3">AI</span>
+          <span id="sp4">DATA</span>
         </div>
       </div>
     </div>

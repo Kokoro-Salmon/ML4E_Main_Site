@@ -3,17 +3,17 @@
     width: 100%;
     border: black 2px solid;
     background-color: rgba(0, 0, 0, 0.90);
-    padding: 20px;
+    /* padding: 20px; */
   }
   
   .sponsors {
-    width: 100%;
-    max-width: 1440px;
+    width: 100vw;
+    /* max-width: 1440px; */
     height: auto;
     flex-shrink: 0;
     border-top: 1px solid #b5b0d9;
     border-bottom: 1px solid #b5b0d9;
-    background: #fff;
+    background: #ffffff;
     box-shadow: 0px 3px 4px 0px #e4d9ff;
     margin: 0 auto;
     padding: 20px;
@@ -21,9 +21,9 @@
   }
   
   .heading {
-    color: #0a1c8f;
+    color: rgb(75, 42, 128);
     font-family: "Noto Sans HK";
-    font-size: 30px;
+    font-size: 2.5rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -50,12 +50,13 @@
   }
   
   .subscribe-section {
+    font-family: "Noto Sans HK";
     width: 100%;
     max-width: 1236px;
     height: auto;
     flex-shrink: 0;
     border-radius: 10px;
-    background: var(--Brand-Blue, #0a1c8f);
+    /* background-color: rgb(75, 42, 128); */
     margin: 80px auto 0;
     display: flex;
     flex-direction: column;
@@ -66,10 +67,10 @@
   .subscribe-title {
     width: 100%;
     color: var(--White, #fff);
-    font-family: Raleway;
+    font-family: "Noto Sans HK";
     font-size: 25px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 400;
     line-height: normal;
     text-align: center;
     margin-bottom: 20px;
@@ -81,19 +82,24 @@
     height: 52px;
     flex-shrink: 0;
     border-radius: 5px;
-    background: #d9d9d9;
+    background-color: rgb(75, 42, 128);
+    text-decoration: none;
     margin: 0 auto;
     font-size: large;
     font-weight: 500;
     cursor: pointer;
+
+    padding: 0;
+    border: none;
   }
   
   .footer {
-    width: 100%;
-    max-width: 1440px;
+    width: 100vw;
+    /* max-width: 1440px; */
+    font-family: "Noto Sans HK";
     height: auto;
     flex-shrink: 0;
-    background: #1e2749;
+    background-color: rgb(62, 35, 106);
     margin: 78px auto 0;
     padding: 20px;
     box-sizing: border-box;
@@ -131,6 +137,7 @@
     line-height: normal;
     flex-wrap: wrap;
     text-align: center;
+    font-family: "Noto Sans HK";
   }
   
   .footer-bottom {
@@ -154,10 +161,12 @@
   
   .footer-bottom p,
   .footer-bottom h4 {
+    font-family: "Noto Sans HK";
     margin: 5px 0;
   }
   
   .footer-bottom div {
+    font-family: "Noto Sans HK";
     display: flex;
     align-items: center;
     justify-content: center;

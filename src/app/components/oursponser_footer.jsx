@@ -45,7 +45,7 @@ export default function Oursponser_footer() {
         </div>
         <div className="footer-bottom">
           <p>All rights Reserved. ML4E, NIT Rourkela, 2024</p>
-          <h4>Social Logo here</h4>
+          {/* <h4>Social Logo here</h4> */}
           <div>
             <Image src="/image 11.png" alt="Footer Decoration" width={50} height={50} />
             Made with Love By - Team ML4E
