@@ -1,8 +1,8 @@
 import React from "react";
 import Image from "next/image";
-import Link from "next/link";
+import "./LandingHeader.css";
 
-function LandingHeader() {
+function LandingHeader({ scrollToSection }) {
   return (
     <div className="landing-header">
       {/* Logo and Title */}
@@ -16,18 +16,18 @@ function LandingHeader() {
       </div>
       {/* Navigation Links */}
       <div className="nav-links">
-        <Link href="/project" className="link">
-          Project
-        </Link>
-        <Link href="/about" className="link">
+        <button onClick={() => scrollToSection("project")} className="link">
+          Projects
+        </button>
+        <button onClick={() => scrollToSection("about")} className="link">
           About Us
-        </Link>
-        <Link href="/resources" className="link">
+        </button>
+        <button onClick={() => scrollToSection("resources")} className="link">
           Resources
-        </Link>
-        <Link href="/contact" className="link">
+        </button>
+        <button onClick={() => scrollToSection("contact")} className="link">
           Contact Us
-        </Link>
+        </button>
       </div>
       {/* Secondary Logo */}
       <div className="secondary-logo">
