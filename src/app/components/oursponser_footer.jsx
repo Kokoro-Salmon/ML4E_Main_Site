@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import "./oursponser_footer.css";
-
+import Link from "next/link";
 export default function Oursponser_footer() {
   return (
     <div className="ourSponserMain">
@@ -55,11 +55,19 @@ export default function Oursponser_footer() {
           </div>
           <div className="footer-link">
             <p>ML4E Machine Learning 4 Everyone</p>
-            <p>Useful Link</p>
+            <div className="usfullinks">
+            <p>Useful Links</p>
+            <Link href="https://github.com/Machine-Learning-for-Everyone-ML4E">Github</Link>
+            <Link href="/about">Twitter</Link>
+            <Link href="https://www.linkedin.com/company/machine-learning-for-everyone-ml4e">Linkedin</Link>
+            </div>
+            <div className="contactus">
             <p>Contact us</p>
+            </div>
             <p>
               For Research Partnerships and Collaborations. <br /> Please Email
               us -
+              <Link href="ml4e.nitr@gmail.com"> Our Mail</Link>
             </p>
           </div>
         </div>
@@ -71,7 +79,7 @@ export default function Oursponser_footer() {
               src="/image 11.png"
               alt="Footer Decoration"
               width={50}
-              height={50}
+              height={35}
             />
             Made with Love By - Team ML4E
           </div>
