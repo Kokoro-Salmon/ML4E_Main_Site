@@ -1,12 +1,8 @@
-
 "use client";
 import React, { Component } from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 import "./projects.css";
-
-
-
 
 const CarouselItem = ({ header, body, image }) => (
   <div className="carousel-item">

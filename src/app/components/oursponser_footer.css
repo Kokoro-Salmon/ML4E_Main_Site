@@ -171,6 +171,11 @@
     align-items: center;
     justify-content: center;
   }
+
+  .usfullinks{
+    display: flex;
+    flex-direction: column;
+  }
   
   @media (min-width: 768px) {
     .subscribe-section {
