@@ -37,8 +37,8 @@ export default function Oursponser_footer() {
 
       <div className="subscribe-section">
         <div className="subscribe-title">
-          "Passionate about AI and ML? Join our community and be part of the
-          next revolution! Open to everyone!"
+          &quot;Passionate about AI and ML? Join our community and be part of
+          the next revolution! Open to everyone!&quot;
         </div>
         <button className="subscribe-btn">Subscribe</button>
       </div>
@@ -56,18 +56,21 @@ export default function Oursponser_footer() {
           <div className="footer-link">
             <p>ML4E Machine Learning 4 Everyone</p>
             <div className="usfullinks">
-            <p>Useful Links</p>
-            <Link href="https://github.com/Machine-Learning-for-Everyone-ML4E">Github</Link>
-            <Link href="/about">Twitter</Link>
-            <Link href="https://www.linkedin.com/company/machine-learning-for-everyone-ml4e">Linkedin</Link>
+              <p>Useful Links</p>
+              <Link href="https://github.com/Machine-Learning-for-Everyone-ML4E">
+                Github
+              </Link>
+              <Link href="/about">Twitter</Link>
+              <Link href="https://www.linkedin.com/company/machine-learning-for-everyone-ml4e">
+                Linkedin
+              </Link>
             </div>
             <div className="contactus">
-            <p>Contact us</p>
+              <p>Contact us</p>
             </div>
             <p>
               For Research Partnerships and Collaborations. <br /> Please Email
-              us -
-              <Link href="ml4e.nitr@gmail.com"> Our Mail</Link>
+              us -<Link href="ml4e.nitr@gmail.com"> Our Mail</Link>
             </p>
           </div>
         </div>
