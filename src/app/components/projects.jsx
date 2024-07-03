@@ -29,13 +29,13 @@ export default class NextJsCarousel extends Component {
         header:
           "CNN Based Image Resizing Detection and Resize Factor Classification for Forensic Applications",
         body: "The paper discusses the challenges associated with the treatment of glioblastoma, a highly dangerous and malignant brain tumour. The current standard of care includes surgical treatment, radiation therapy, and chemotherapy using temozolomide. However,chemotherapy often becomes ineffective due to resistance development and disease re-emergence. Recent research has shown that the methylation status of the O6-methylguanine-DNA methyltransferase (MGMT) promoter region is an essential indicator of the response to temozolomide therapy in glioblastoma patients.",
-        image: "/2.png",
+        image: "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*EQe39aT2EIrjGDG3v5Burg.png",
       },
       {
         header:
           "MRI Based MGMT promoter methylation detection using Deep Learning",
         body: "The paper discusses the challenges associated with the treatment of glioblastoma, a highly dangerous and malignant brain tumour. The current standard of care includes surgical treatment, radiation therapy, and chemotherapy using temozolomide. However,chemotherapy often becomes ineffective due to resistance development and disease re-emergence. Recent research has shown that the methylation status of the O6-methylguanine-DNA methyltransferase (MGMT) promoter region is an essential indicator of the response to temozolomide therapy in glioblastoma patients.",
-        image: "/3.png",
+        image: "https://www.researchgate.net/profile/Khanh-Lee/publication/344282867/figure/fig1/AS:938381487910913@1600738989729/An-illustrative-example-of-how-to-segment-the-MRI-scan-of-a-patient-with-GBM-into-three.png",
       },
     ];
 
