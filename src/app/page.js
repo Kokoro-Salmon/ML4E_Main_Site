@@ -6,6 +6,7 @@ import Projects from './components/projects';
 import Aboutus from './components/aboutus';
 import Fourthcomponent from './components/fourthcomponent';
 import Oursponser_footer from './components/oursponser_footer';
+import Whatdowedo from "./components/whatdowedo";
 
 export default function Home() {
   const projectRef = useRef(null);
@@ -35,11 +36,14 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <Landing scrollToSection={scrollToSection} />
-      <div ref={projectRef}>
-        <Projects />
-      </div>
       <div ref={aboutRef}>
         <Aboutus />
+      </div>
+      <div>
+        <Whatdowedo />
+      </div>
+      <div ref={projectRef}>
+        <Projects />
       </div>
       <div ref={resourcesRef}>
         <Fourthcomponent />

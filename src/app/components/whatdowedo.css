@@ -1,0 +1,97 @@
+.whatdowedomain {
+  height: 200vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.whatuppercolm {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+.whatlowercolm {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+.whatleft {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  font-size: 3rem;
+  
+}
+.whatright{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    font-size: 3rem;
+    background-color: blueviolet;
+    background: linear-gradient(45deg, #9b60cf 0%, #5b05d3 100%);
+    /* background: linear-gradient(45deg, #ba6aff 0%, #6b01ff 100%); */
+}
+/* .whatleftspan{
+    margin: 1rem;
+} */
+.whatlowleft {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(45deg,   #5b05d3 0%, #9b60cf 100%);
+}
+
+.whatlowright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    font-size: 3rem;
+}
+
+.whatmaybe {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .original,
+  .overlay {
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .original.hidden {
+    opacity: 0;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    color: inherit;  /* Match the text color */
+    background: inherit; /* Match the background */
+  }
+  
+  .overlay.visible {
+    opacity: 1;
+  }

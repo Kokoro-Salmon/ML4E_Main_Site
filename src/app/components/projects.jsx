@@ -41,6 +41,7 @@ export default class NextJsCarousel extends Component {
 
     return (
       <div className="carousel-container">
+        <div className="carousalhead">Some Of Our Projects</div>
         <div className="sub-carousel-container">
           <Carousel className="actual_carousel" showThumbs={false} transitionTime={1000}>
             {carouselData.map((item, index) => (
