@@ -28,8 +28,9 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 5rem;
-  margin-left: 5rem;
-  margin-right: 5rem;
+  /* margin-left: 5rem; */
+  /* margin-right: 5rem; */
+  padding: 2rem;
   height: 80vh;
   width: 100vw;
   font-family: "Noto Sans HK", sans-serif;
