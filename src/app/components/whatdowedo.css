@@ -96,6 +96,9 @@
 }
 
 @media (max-width: 1000px) {
+  .whatdowedomain {
+    height: 250vh;
+  }
   .whatuppercolm {
     flex-direction: column;
   }

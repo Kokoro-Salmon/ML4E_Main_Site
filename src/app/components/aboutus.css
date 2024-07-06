@@ -93,7 +93,7 @@
   letter-spacing: 0.1px;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1000px) {
   .aboutMain {
     height: 120vh;
   }
@@ -122,3 +122,4 @@
     display: none;
   }
 }
+
