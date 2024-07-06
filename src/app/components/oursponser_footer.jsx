@@ -10,7 +10,7 @@ export default function Oursponser_footer() {
         <div className="sponsors-img">
           <div className="sponsors--title">
             <Image
-              src="/KIIT-TBI_Logo_ 2.png"
+              src="/cropped-KIIT-TBI-Logo--163x74.png"
               alt="KIIT-TBI Logo"
               width={150}
               height={100}
@@ -18,7 +18,7 @@ export default function Oursponser_footer() {
           </div>
           <div className="sponsors--title">
             <Image
-              src="/DST-NIDHI_Original-Logo-H-1024x374 2.png"
+              src="/DST-NIDHI.png"
               alt="DST-NIDHI Logo"
               width={150}
               height={100}
@@ -26,7 +26,7 @@ export default function Oursponser_footer() {
           </div>
           <div className="sponsors--title">
             <Image
-              src="/logo 2.png"
+              src="/logo (2).png"
               alt="Startup Odisha Logo"
               width={150}
               height={100}

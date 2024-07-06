@@ -12,6 +12,8 @@ function LandingHeader({ scrollToSection }) {
           width={63.56}
           height={63.48}
           alt="ML4Everyone Logo"
+          className="responsiveImage"
+          // layout="responsive"
         />
       </div>
       {/* Navigation Links */}
@@ -31,7 +33,14 @@ function LandingHeader({ scrollToSection }) {
       </div>
       {/* Secondary Logo */}
       <div className="secondary-logo">
-        <Image src="/NITR.png" alt="NITR Logo" width={61.29} height={64.44} />
+        <Image
+          src="/NITR.png"
+          alt="NITR Logo"
+          width={61.29}
+          height={64.44}
+          className="responsiveImage"
+          // layout="responsive"
+        />
       </div>
     </div>
   );

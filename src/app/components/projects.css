@@ -73,3 +73,38 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+@media (max-width: 1000px) {
+  .carousel-container {
+    height: 140vh;
+    width: 100vw;
+  }
+  .carousalhead {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    /* font-weight: bold; */
+  }
+  .carousel-item {
+    padding: 0px;
+    margin-bottom: 0;
+    flex-direction: column;
+  }
+  .carousel-item h3 {
+    margin: 0px;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .carousel-item p {
+    margin-right: 20px;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .carousel-item-image {
+    display: none;
+  }
+}
+
