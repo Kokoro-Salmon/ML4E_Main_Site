@@ -123,10 +123,24 @@
   background-color: rgb(75, 42, 128);
 }
 
-@media (max-width: 800px) {
-  .card-container {
-    grid-template-columns: 1fr;
-    justify-content: center;
-    height: 80%;
+@media (max-width: 1000px) {
+  .fourthMain {
+    height: 200vh;
   }
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    grid-gap: 0rem;
+  }
+  .card{
+    margin-bottom: 2rem;
+  }
+  .fourthtitle{    
+    font-size: 3rem;
+    height: 20vh;
+  }
+
 }

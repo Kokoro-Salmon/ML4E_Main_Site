@@ -33,12 +33,10 @@
 
 .wrapper p {
   font-size: 5rem;
-
 }
 
 .words {
   overflow: hidden;
-
 }
 
 .words span {
@@ -109,9 +107,6 @@
   animation-delay: 3s;
 } */
 
-
-
-
 @keyframes spin_words {
   0% {
     transform: translateY(0);
@@ -133,5 +128,35 @@
   }
   100% {
     transform: translateY(0);
+  }
+}
+
+@media (max-width: 1000px) {
+  .hero h1 {
+    font-weight: bold;
+    font-size: 5rem;
+  }
+
+  .hero p {
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .wrapper p {
+    font-size: 2.5rem;
+  }
+
+  .words span {
+    /* display: block; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding-left: 10px;
+    color: #0e6ffc;
+    animation: spin_words 8s ease-in-out infinite;
+    font-size: 2.5rem; /* Increased font size for visibility */
   }
 }
