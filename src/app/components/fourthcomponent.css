@@ -140,7 +140,9 @@
   }
   .fourthtitle{    
     font-size: 3rem;
-    height: 20vh;
+    height: 50vh;
   }
-
+  .paracard {
+    overflow: hidden;
+  }
 }

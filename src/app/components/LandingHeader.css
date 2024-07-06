@@ -59,7 +59,12 @@
     text-decoration: none;
   }
   .responsiveImage{
-    width: 99%;
-    height: 99%;
+    width: 100%;
+    height: 100%;
+  }
+}
+@media (max-width: 400px) {
+  .responsiveImage {
+    display: none;
   }
 }
