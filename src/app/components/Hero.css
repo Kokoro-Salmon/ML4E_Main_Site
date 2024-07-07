@@ -6,6 +6,7 @@
   /* padding-top: 50px; */
   height: 100%;
   width: 100%;
+  padding-bottom: 5rem;
 }
 
 .hero h1 {
@@ -138,14 +139,14 @@
   }
 
   .hero p {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
   .wrapper p {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
   }
 
   .words span {
@@ -157,6 +158,6 @@
     padding-left: 10px;
     color: #0e6ffc;
     animation: spin_words 8s ease-in-out infinite;
-    font-size: 2.5rem; /* Increased font size for visibility */
+    font-size: 2.2rem; /* Increased font size for visibility */
   }
 }

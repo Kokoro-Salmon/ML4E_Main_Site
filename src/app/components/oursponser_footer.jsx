@@ -40,7 +40,7 @@ export default function Oursponser_footer() {
           &quot;Passionate about AI and ML? Join our community and be part of
           the next revolution! Open to everyone!&quot;
         </div>
-        <button className="subscribe-btn">Subscribe</button>
+        <button className="subscribe-btn">Join Now!!!</button>
       </div>
 
       <div className="footer">

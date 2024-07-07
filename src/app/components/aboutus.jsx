@@ -17,13 +17,13 @@ export default function Aboutus() {
                 have an interest in machine learning and artificial intelligence. The club values enthusiasm, curiosity, and a willingness to learn. By joining, members gain access to a wealth of resources, including hackathons, project opportunities, and a network of like-minded peers.
               </p>
               <div className="button">
-                <a href="#">Join the community</a>
+                <a href="https://x.com/ml4e_nitr">Join the community</a>
               </div>
             </div>
           </div>
           <div className="icon-section">
             <div className="social">
-            <div className="handles"><a href="#"><img  className='imges' src="/linkdin.svg" alt="LinkedIn" /></a></div>
+            <div className="handles"><a href="https://www.linkedin.com/company/machine-learning-for-everyone-ml4e"><img  className='imges' src="/linkdin.svg" alt="LinkedIn" /></a></div>
               <div className="handles"><a href="#"><img className='imges' src="/discord.svg" alt="Discord" /></a></div>
             </div>
           </div>
