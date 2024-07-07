@@ -21,21 +21,23 @@ export default class NextJsCarousel extends Component {
     const carouselData = [
       {
         header:
-          "Clustering Based Approach for Underwater Sunlight Flicker Removal",
-        body: "Reproduction of a given dataset of lung sounds recorded from the chest wall using an electronic stethoscope for classification of various lung diseases from audio files and benchmarking of current state of the art classification models for ICBHI Respiratory Sound Database (ICBHI 2017 Challenge)",
-        image: "/1.png",
+          "Leash-Belka Protein Ligand Affinity Prediction for Drug Testing.",
+        body: "Predicts protein-ligand binding to accelerate development of life-saving therapies",
+        image:
+          "https://media.drugdesign.org/course/protein-ligand-binding/3_2_0_1.png",
       },
       {
         header:
-          "CNN Based Image Resizing Detection and Resize Factor Classification for Forensic Applications",
-        body: "The paper discusses the challenges associated with the treatment of glioblastoma, a highly dangerous and malignant brain tumour. The current standard of care includes surgical treatment, radiation therapy, and chemotherapy using temozolomide. However,chemotherapy often becomes ineffective due to resistance development and disease re-emergence. Recent research has shown that the methylation status of the O6-methylguanine-DNA methyltransferase (MGMT) promoter region is an essential indicator of the response to temozolomide therapy in glioblastoma patients.",
-        image: "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*EQe39aT2EIrjGDG3v5Burg.png",
+          "NLP for Indigenous Language: AmericasNLP Low-Resource MT Project",
+        body: "This project leads the application of cutting-edge Natural Language Processing (NLP) techniques for low-resource machine translation (MT). By using AmericasNLP's  MT framework, We worked on Spanish and these historically under-represented tongues.",
+        image: "/32b50a1a-d3b9-4b84-be2e-f38cf4f102b9.png",
       },
       {
         header:
           "MRI Based MGMT promoter methylation detection using Deep Learning",
         body: "The paper discusses the challenges associated with the treatment of glioblastoma, a highly dangerous and malignant brain tumour. The current standard of care includes surgical treatment, radiation therapy, and chemotherapy using temozolomide. However,chemotherapy often becomes ineffective due to resistance development and disease re-emergence. Recent research has shown that the methylation status of the O6-methylguanine-DNA methyltransferase (MGMT) promoter region is an essential indicator of the response to temozolomide therapy in glioblastoma patients.",
-        image: "https://www.researchgate.net/profile/Khanh-Lee/publication/344282867/figure/fig1/AS:938381487910913@1600738989729/An-illustrative-example-of-how-to-segment-the-MRI-scan-of-a-patient-with-GBM-into-three.png",
+        image:
+          "https://www.researchgate.net/profile/Khanh-Lee/publication/344282867/figure/fig1/AS:938381487910913@1600738989729/An-illustrative-example-of-how-to-segment-the-MRI-scan-of-a-patient-with-GBM-into-three.png",
       },
     ];
 
@@ -43,7 +45,11 @@ export default class NextJsCarousel extends Component {
       <div className="carousel-container">
         <div className="carousalhead">Some Of Our Projects</div>
         <div className="sub-carousel-container">
-          <Carousel className="actual_carousel" showThumbs={false} transitionTime={1000}>
+          <Carousel
+            className="actual_carousel"
+            showThumbs={false}
+            transitionTime={1000}
+          >
             {carouselData.map((item, index) => (
               <CarouselItem
                 key={index}
@@ -57,7 +63,4 @@ export default class NextJsCarousel extends Component {
       </div>
     );
   }
-
-
-
 }
