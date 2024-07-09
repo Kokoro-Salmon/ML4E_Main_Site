@@ -29,9 +29,9 @@ export default function Fourthcomponent() {
             >
               <button className="actual-buttons">View Details</button>
             </Link>
-            <Link className="button-dowload-pdf" href="https://www.google.com">
+            {/* <Link className="button-dowload-pdf" href="https://www.google.com">
               <button className="actual-buttons">Download PDF</button>
-            </Link>
+            </Link> */}
           </div>
         </div>
         <div className="card">
@@ -55,9 +55,9 @@ export default function Fourthcomponent() {
             >
               <button className="actual-buttons">View Details</button>
             </Link>
-            <Link className="button-dowload-pdf" href="https://www.google.com">
+            {/* <Link className="button-dowload-pdf" href="https://www.google.com">
               <button className="actual-buttons">Download PDF</button>
-            </Link>
+            </Link> */}
           </div>
         </div>
         <div className="card">
@@ -82,9 +82,9 @@ export default function Fourthcomponent() {
             >
               <button className="actual-buttons">View Details</button>
             </Link>
-            <Link className="button-dowload-pdf" href="https://www.google.com">
+            {/* <Link className="button-dowload-pdf" href="https://www.google.com">
               <button className="actual-buttons">Download PDF</button>
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>

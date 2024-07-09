@@ -22,7 +22,7 @@ export default class NextJsCarousel extends Component {
       {
         header:
           "Leash-Belka Protein Ligand Affinity Prediction for Drug Testing.",
-        body: "Predicts protein-ligand binding to accelerate development of life-saving therapies",
+        body: "Predicts protein-ligand binding to accelerate development of life-saving therapies. This innovative approach utilizes BELKA (Big Encoded Library for Chemical Assessment) to analyze potential drugs at the molecular level, allowing researchers to prioritize promising candidates and reduce the time it takes to bring new treatments to patients. Additionally, Leash-Belka can help identify potential off-target effects, minimizing the risk of adverse side effects.",
         image:
           "https://media.drugdesign.org/course/protein-ligand-binding/3_2_0_1.png",
       },

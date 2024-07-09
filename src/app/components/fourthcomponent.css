@@ -79,7 +79,7 @@
 
   .button-view-detail {
     height: 40%;
-    width: 40%;
+    width: 80%;
     margin: 1rem;
     transition: 0.5s;
     color: white;
@@ -122,6 +122,10 @@
   cursor: pointer;
   background-color: rgb(75, 42, 128);
 }
+.actual-buttons:hover{
+  color: #b5b0d9;
+  /* background-color: rgb(132, 59, 250); */
+}
 
 @media (max-width: 1000px) {
   .fourthMain {
@@ -141,6 +145,7 @@
   .fourthtitle{    
     font-size: 2.5rem;
     height: 50vh;
+    text-align: center;
   }
   .paracard {
     overflow: hidden;

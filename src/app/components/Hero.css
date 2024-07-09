@@ -146,7 +146,7 @@
   }
 
   .wrapper p {
-    font-size: 2.2rem;
+    font-size: 1.5rem;
   }
 
   .words span {
@@ -158,6 +158,6 @@
     padding-left: 10px;
     color: #0e6ffc;
     animation: spin_words 8s ease-in-out infinite;
-    font-size: 2.2rem; /* Increased font size for visibility */
+    font-size: 2rem; /* Increased font size for visibility */
   }
 }
