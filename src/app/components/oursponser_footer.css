@@ -1,201 +1,216 @@
 .ourSponserMain {
-    height: auto;
-    width: 100%;
-    border: black 2px solid;
-    background-color: rgba(0, 0, 0, 0.90);
-    /* padding: 20px; */
-  }
-  
-  .sponsors {
-    width: 100vw;
-    /* max-width: 1440px; */
-    height: auto;
-    flex-shrink: 0;
-    border-top: 1px solid #b5b0d9;
-    border-bottom: 1px solid #b5b0d9;
-    background: #ffffff;
-    box-shadow: 0px 3px 4px 0px #e4d9ff;
-    margin: 0 auto;
-    padding: 20px;
-    box-sizing: border-box;
-  }
-  
-  .heading {
-    color: rgb(75, 42, 128);
-    font-family: "Noto Sans HK";
-    font-size: 2.5rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    height: 43px;
-    text-align: center;
-  }
-  
-  .sponsors-img {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: flex-start;
-    gap: 35px;
-    flex-shrink: 0;
-    margin-top: 20px;
-  }
-  
-  .sponsors--title {
-    display: flex;
-    width: 150px;
-    height: 100px;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .subscribe-section {
-    font-family: "Noto Sans HK";
-    width: 100%;
-    max-width: 1236px;
-    height: auto;
-    flex-shrink: 0;
-    border-radius: 10px;
-    /* background-color: rgb(75, 42, 128); */
-    margin: 80px auto 0;
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-    box-sizing: border-box;
-  }
-  
-  .subscribe-title {
-    width: 100%;
-    color: var(--White, #fff);
-    font-family: "Noto Sans HK";
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  .subscribe-btn {
-    width: 100%;
-    max-width: 206px;
-    height: 52px;
-    flex-shrink: 0;
-    border-radius: 5px;
-    background-color: rgb(75, 42, 128);
-    text-decoration: none;
-    margin: 0 auto;
-    font-size: large;
-    font-weight: 500;
-    /* cursor: pointer; */
+  height: auto;
+  width: 100%;
+  /* border: black 2px solid; */
+  /* background-color: rgba(0, 0, 0, 0.9); */
+  /* padding: 20px; */
+}
 
-    padding: 0;
-    border: none;
-  }
-  
-  .footer {
-    width: 100vw;
-    /* max-width: 1440px; */
-    font-family: "Noto Sans HK";
-    height: auto;
-    flex-shrink: 0;
-    background-color: rgb(62, 35, 106);
-    margin: 78px auto 0;
-    padding: 20px;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .footer-top {
-    width: 100%;
-    max-width: 1236px;
-    height: auto;
-    flex-shrink: 0;
-    margin: 23px auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .logo-name {
-    width: 150px;
-    margin-bottom: 20px;
-  }
-  
-  .footer-link {
-    width: 100%;
-    max-width: 1086px;
-    display: flex;
+.sponsors {
+  width: 100vw;
+  /* max-width: 1440px; */
+  height: auto;
+  flex-shrink: 0;
+  border-top: 1px solid #b5b0d9;
+  border-bottom: 1px solid #b5b0d9;
+  background: #ffffff;
+  /* box-shadow: 0px 3px 4px 0px #e4d9ff; */
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.heading {
+  color: rgb(75, 42, 128);
+  font-family: "Noto Sans HK";
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  height: 43px;
+  text-align: center;
+}
+
+.sponsors-img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  gap: 35px;
+  flex-shrink: 0;
+  margin-top: 20px;
+}
+
+.sponsors--title {
+  display: flex;
+  width: 150px;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+.subscribe-section {
+  font-family: "Noto Sans HK";
+  width: 100%;
+  max-width: 1236px;
+  height: auto;
+  flex-shrink: 0;
+  border-radius: 10px;
+  /* background-color: rgb(75, 42, 128); */
+  margin: 80px auto 0;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.subscribe-title {
+  width: 100%;
+  color: var(--White, #fff);
+  font-family: "Noto Sans HK";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.subscribe-btn {
+  width: 100%;
+  max-width: 206px;
+  height: 52px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background-color: rgb(75, 42, 128);
+  /* text-decoration: none; */
+  margin: 0 auto;
+  font-size: large;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 0;
+  border: none;
+}
+.subscribe-btn:hover {
+  color: #b5b0d9;
+}
+
+.footer {
+  width: 100vw;
+  /* max-width: 1440px; */
+  font-family: "Noto Sans HK";
+  height: auto;
+  flex-shrink: 0;
+  background-color: rgb(62, 35, 106);
+  margin: 78px auto 0;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-top {
+  width: 100%;
+  max-width: 1236px;
+  height: auto;
+  flex-shrink: 0;
+  margin: 23px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* .logo-name {
+  width: 150px;
+  margin-bottom: 20px;
+} */
+
+.footer-link {
+  width: 100%;
+  max-width: 1086px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  font-family: Raleway;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  flex-wrap: wrap;
+  text-align: center;
+  font-family: "Noto Sans HK";
+}
+
+.footer-bottom {
+  width: 100%;
+  max-width: 1236px;
+  height: auto;
+  margin: auto;
+  border-top: 1px solid rgb(152, 56, 216);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #e4d9ff;
+  font-family: Raleway;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.footer-bottom p,
+.footer-bottom h4 {
+  font-family: "Noto Sans HK";
+  margin: 5px 0;
+}
+
+.footer-bottom div {
+  font-family: "Noto Sans HK";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.usfullinks {
+  display: flex;
+  flex-direction: column;
+}
+.footer-heading {
+  font-size: 1.5rem;
+}
+.footer-links-our {
+  font-size: 1rem;
+}
+.footer-links-our:hover {
+  color: #b5b0d9;
+}
+
+@media (min-width: 768px) {
+  .subscribe-section {
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    color: #fff;
-    font-family: Raleway;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    flex-wrap: wrap;
-    text-align: center;
-    font-family: "Noto Sans HK";
-  }
-  
-  .footer-bottom {
-    width: 100%;
-    max-width: 1236px;
-    height: auto;
-    margin: auto;
-    border-top: 1px solid white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: #e4d9ff;
-    font-family: Raleway;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    text-align: center;
-    padding-top: 10px;
-  }
-  
-  .footer-bottom p,
-  .footer-bottom h4 {
-    font-family: "Noto Sans HK";
-    margin: 5px 0;
-  }
-  
-  .footer-bottom div {
-    font-family: "Noto Sans HK";
-    display: flex;
-    align-items: center;
-    justify-content: center;
   }
 
-  .usfullinks{
-    display: flex;
+  .subscribe-title {
+    text-align: left;
+    margin-bottom: 0;
+  }
+
+  .footer-bottom {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+.footter-ml4e {
+  font-size: 1rem;
+}
+
+@media (max-width: 900px) {
+  .footer-link {
     flex-direction: column;
   }
-  
-  @media (min-width: 768px) {
-    .subscribe-section {
-      flex-direction: row;
-      justify-content: space-between;
-      align-items: center;
-    }
-  
-    .subscribe-title {
-      text-align: left;
-      margin-bottom: 0;
-    }
-  
-    .footer-top {
-      flex-direction: row;
-    }
-  
-    .footer-bottom {
-      flex-direction: row;
-      justify-content: space-between;
-    }
-  }
-  
+}

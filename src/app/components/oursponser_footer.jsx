@@ -40,38 +40,52 @@ export default function Oursponser_footer() {
           &quot;Passionate about AI and ML? Join our community and be part of
           the next revolution! Open to everyone!&quot;
         </div>
-        <button className="subscribe-btn">Join Now!!!</button>
+        <Link className="subscribe-btn" href="https://x.com/ml4e_nitr">
+          <button className="subscribe-btn">Join Now!!!</button>
+        </Link>
       </div>
 
       <div className="footer">
         <div className="footer-top">
-          <div className="logo-name">
-            <Image
-              src="/image 12.png"
-              alt="ML4E Logo"
-              width={100}
-              height={100}
-            />
-          </div>
           <div className="footer-link">
-            <p>ML4E Machine Learning 4 Everyone</p>
+            <div className="logo-name">
+              <Image
+                src="/image 12.png"
+                alt="ML4E Logo"
+                width={100}
+                height={100}
+              />
+              <p className="footter-ml4e">ML4E Machine Learning 4 Everyone</p>
+            </div>
             <div className="usfullinks">
-              <p>Useful Links</p>
-              <Link href="https://github.com/Machine-Learning-for-Everyone-ML4E">
-                Github
+              <p className="footer-heading">Useful Links</p>
+              <Link
+                className="footer-links-our"
+                href="https://github.com/Machine-Learning-for-Everyone-ML4E"
+              >
+                [Github]
               </Link>
-              <Link href="/about">Twitter</Link>
-              <Link href="https://www.linkedin.com/company/machine-learning-for-everyone-ml4e">
-                Linkedin
+              <Link className="footer-links-our" href="https://x.com/ml4e_nitr">
+                [Twitter]
+              </Link>
+              <Link
+                className="footer-links-our"
+                href="https://www.linkedin.com/company/machine-learning-for-everyone-ml4e"
+              >
+                [Linkedin]
               </Link>
             </div>
-            <div className="contactus">
-              <p>Contact us</p>
-            </div>
-            <p>
+            <div>
+              <div className="contactus">
+                <p className="footer-heading">Contact us</p>
+              </div>
               For Research Partnerships and Collaborations. <br /> Please Email
-              us -<Link href="ml4e.nitr@gmail.com"> Our Mail</Link>
-            </p>
+              us -
+              <Link className="footer-links-our" href="ml4e.nitr@gmail.com">
+                {" "}
+                ml4e.nitr@gmail.com
+              </Link>
+            </div>
           </div>
         </div>
         <div className="footer-bottom">
